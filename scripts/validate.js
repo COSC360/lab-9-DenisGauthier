@@ -1,17 +1,4 @@
   //check passwords
-function checkPasswordMatch(e){
-  e.preventDefault();
-  var pass1 = document.getElementById("password").value;
-  var pass2 = document.getElementById("password-check").value;
-  if(pass1 !== pass2){
-    makeRed(document.getElementById("password-check"));
-    window.alert("Passwords do not match");
-  }
-  else{
-    mainForm.submit();
-  }
-}
-
 function isBlank(inputField)
 {
     if (inputField.value=="")
